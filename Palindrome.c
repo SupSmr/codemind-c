@@ -9,6 +9,6 @@ int main()
         int r=a%10;
         rev=rev*10+r;
     }
-    if(b==rev) printf("Palindrome");
-    else printf("Not Palindrome");
+    if(b==rev) printf("True");
+    else printf("False");
 }
